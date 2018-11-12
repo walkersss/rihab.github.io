@@ -1,0 +1,57 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrapper::after {
+  content: "";
+  background: url(https://i.postimg.cc/fLPyCVTx/kict.jpg);
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+  }
+  html, body {
+	height: 100%;
+
+  }
+	.container{
+	padding: inherit;
+
+	}
+	.groupImage{
+		border:1px solid black;
+		border-collapse: collapse;
+		height:100%
+		width: 50%
+		float: left;
+	}
+	th, td {
+		    padding: 15px;
+		    text-align: center;
+				border: 1px solid black;
+				border-collapse: collapse;
+		}
+		tr:hover {
+			background-color:white;
+		}
+		.img{
+			width: auto;
+			height: 200px;
+		}
+		.Nav{
+		float: right;
+		width: 50%;
+		}
+	#header{
+		border: 1px solid;
+		padding: 10px;
+		box-shadow: 5px 10px #888888;
+		 background-color: white;
+	}

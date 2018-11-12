@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome!</title>
+<style media="screen">
+
+  html, body {
+  height: 100%;
+
+  }
+  body::after{
+    content: "";
+    background: url(https://i.postimg.cc/fLPyCVTx/kict.jpg);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .container{
+  padding: inherit;
+
+  }
+  .groupImage{
+    border:1px solid black;
+    border-collapse: collapse;
+    height:100%
+    width: 50%
+    float: left;
+  }
+  th, td {
+        padding: 15px;
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    tr:hover {
+      background-color:white;
+    }
+    .img{
+      width: auto;
+      height: 200px;
+    }
+    .nav{
+    float: right;
+    width: 30%;
+    padding: 20%;
+    }
+    .head{
+      float: left;
+      width: 30%;
+      padding:20%;
+    }
+  header{
+    border: 5px solid;
+    padding: 30px;
+    box-shadow: 5px 10px #888888;
+    background-color: white;
+  }
+
+</style>
+  </head>
+
+  <body>
+    <header>
+
+    <div class="head">
+      <h1>Webtechies: Our Wiki</h1>
+      <h2>Home</h2>
+    </div>
+      <div class="nav">
+        <ul>
+          <li><a href="Frontpage.html">Home</a></li>
+          <li><a href="Rihab.html">Rihab's Page</a></li>
+          <li><a href="Syahmi.html">Syahmi's Page</a></li>
+          <li><a href="Afiq.html">Afiq's Page</a></li>
+        </ul>
+      </div>
+
+    </header>
+
+    <div class="container">
+
+      <br><br>
+
+      <table class="groupImage">
+        <h3>The Webtechers</h3>
+        <tr class="a">
+          <td><a href="Rihab.html">Rihab Adib</td>
+          <td><a href="Syahmi.html">Syahmi Kamarul Baharin</td>
+          <td><a href="Afiq.html">Muhammad Afiq</td>
+        </tr>
+        <tr class="a">
+          <td><a href="Rihab.html"><img class="img" src="Images/rihab.jpg" alt=""></td>
+          <td><a href="Syahmi.html"><img class="img" src="Images/syahmi.jpg" alt=""></td>
+          <td><a href="Afiq.html"><img class="img" src="Images/afiq.jpg" alt=""></td>
+        </tr>
+      </table>
+
+    </div>
+
+
+  </body>
+</html>
